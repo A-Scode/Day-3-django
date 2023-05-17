@@ -8,4 +8,6 @@ def Hello(request):
 
 
 def django_hello(request):
-    return render(request , "hello.html")
+    
+    return render(request , "hello.html" ,{})
+
